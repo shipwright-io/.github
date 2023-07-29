@@ -12,7 +12,7 @@ Please read through the following guidelines.
 
 Participate in near real-time conversations with other Shipwright community members. Ask questions, get answers, build relationships.
 
-[Join the Channel](https://kubernetes.slack.com/archives/C019ZRGUEJC)
+[Join the Kubernetes Slack workspace if you haven't already](slack.kubernetes.io), then [join the #shipwright channel](https://kubernetes.slack.com/archives/C019ZRGUEJC).
 
 ## GitHub Discussions
 
