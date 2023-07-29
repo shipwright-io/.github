@@ -16,7 +16,7 @@ Participate in near real-time conversations with other Shipwright community memb
 
 ## GitHub Discussions
 
-Join in-depth discussions about the Shipwright, propose new features, debate to your hearts content, and help shape our future!
+Join in-depth discussions about Shipwright, propose new features, debate to your hearts content, and help shape our future!
 
 [Join the Discussion](https://github.com/shipwright-io/community/discussions)
 
