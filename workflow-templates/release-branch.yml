@@ -9,7 +9,7 @@ on:
         type: string
         description: "Semantic version for the release branch (vX.Y format)"
       git-ref:
-        required: false
+        required: true
         type: string
         description: "Git ref to create the release branch from (defaults to main)"
         default: "main"

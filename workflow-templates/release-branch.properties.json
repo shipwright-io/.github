@@ -1,5 +1,5 @@
 {
-    "name": "adambkaplan Release Brancher",
+    "name": "Release Brancher",
     "description": "Starter workflow for creating release branches",
     "iconName": "octicon git-branch",
     "categories": [
