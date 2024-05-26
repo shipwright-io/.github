@@ -19,7 +19,7 @@ By submitting pull requests submitters acknowledge they grant the
 
 ## Getting Started
 
-All contributors must abide by our [Code of Conduct](/code-of-conduct.md).
+All contributors must abide by our [Code of Conduct](/CODE_OF_CONDUCT.md).
 
 The core code for Shipwright is located in the following repositories:
 
