@@ -12,8 +12,7 @@ Each component of Shipwright will have its own specific guidelines.
 
 ## Contributing prerequisites (CLA/DCO)
 
-The project does not yet define a Contributor License Agreement or
-[Developer Certificate of Origin (DCO)](https://wiki.linuxfoundation.org/dco).
+The project enforces [Developer Certificate of Origin (DCO)](https://wiki.linuxfoundation.org/dco).
 By submitting pull requests submitters acknowledge they grant the
 [Apache License v2](./LICENSE) to the code and that they are eligible to grant this license for all commits submitted in their pull requests.
 
@@ -61,6 +60,8 @@ We recommend you do the following to ensure the maintainers can collaborate on y
 - If you make code changes, ensure tests are passing
 - Open a PR with a clear description, completing the pull request template if one is provided
   Please reference the appropriate GitHub issue if your pull request provides a fix.
+
+**NOTE**: All commits must be signed-off ([Developer Certificate of Origin (DCO)](https://wiki.linuxfoundation.org/dco)) so make sure you use the `-s` flag when you commit. See more information on signing in [here](https://github.com/apps/dco).
 
 ## Code review process
 
