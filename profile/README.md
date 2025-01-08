@@ -20,18 +20,18 @@ A few of the most popular libraries:
 ## Community 🙌
 
 - [Kubernetes Slack](https://kubernetes.slack.com/messages/shipwright)
-- [User Mailing List](https://lists.shipwright.io/admin/lists/shipwright-users.lists.shipwright.io/)
+- [User Mailing List](https://lists.cncf.io/g/shipwright-users/join)
 
 ## Developer Resources ✏️
 
 - [How to Contribute](https://github.com/shipwright-io/.github/blob/main/CONTRIBUTING.md)
-- [Developer Mailing List](https://lists.shipwright.io/admin/lists/shipwright-dev.lists.shipwright.io/)
+- [Developer Mailing List](https://lists.cncf.io/g/shipwright-dev/join)
 
 ## Useful Links 📎
 
 - [Documentation](https://shipwright.io/docs/)
 - [Report a Vulnerability](https://github.com/shipwright-io/.github/blob/master/SECURITY.md)
-- [Public Calendar invite](https://calendar.google.com/calendar/u/0/embed?src=shipwright-admin@lists.shipwright.io&ctz=America/New_York)
+- [Public Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/shipwright)
 
 ## Policies 💡
 
