@@ -44,7 +44,7 @@ Use the following checklist to determine where you should create an issue:
 - If the issue is related to how the operator installs Shipwright on a cluster, create an issue in [operator](https://github.com/shipwright-io/operator).
 - If the issue is related to the shipwright.io website, create an issue in [website](https://github.com/shipwright-io/website).
 
-If you are not sure, create an issue in this repository, and the Shipwright maintainers will route it to the correct location.
+If you are not sure, create an issue in the [community](https://github.com/shipwright-io/community) repository, and the Shipwright maintainers will route it to the correct location.
 
 If feature request is sufficiently broad or significant, the community may ask you to submit a SHIP enhancement proposal.
 Please refer to the [SHIP guidelines](/ships/README.md) to learn how to submit a SHIP proposal.
@@ -54,14 +54,24 @@ Please refer to the [SHIP guidelines](/ships/README.md) to learn how to submit a
 Contributions can be submitted by creating a pull request on Github.
 We recommend you do the following to ensure the maintainers can collaborate on your contribution:
 
-- Fork the project into your personal Github account
-- Create a new feature branch for your contribution
-- Make your changes
-- If you make code changes, ensure tests are passing
-- Open a PR with a clear description, completing the pull request template if one is provided
-  Please reference the appropriate GitHub issue if your pull request provides a fix.
+- Fork the project into your personal Github account.
+- Create a new feature branch for your contribution from the latest `main` branch commit.
+- Make your changes, ensuring that tests are passing.
+- Commit your code changes locally, with a clear commit message and a Developer Certificate of
+  Origin [(DCO)](https://wiki.linuxfoundation.org/dco) sign-off footer. You can do this by using
+  the `-s` flag when committing changes with git, or amending your commit message after the fact:
 
-**NOTE**: All commits must be signed-off ([Developer Certificate of Origin (DCO)](https://wiki.linuxfoundation.org/dco)) so make sure you use the `-s` flag when you commit. See more information on signing in [here](https://github.com/apps/dco).
+  ```sh
+  git commit --amend -s
+  ```
+
+- Push your code changes to GitHub, then [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+  with a clear title for the community review. Most Shipwright repositories use templates to
+  generate pull request descriptions. If so, please fill out all sections so your change is
+  easier to discuss and accept. Finally, please reference the appropriate GitHub issue if your change
+  provides a fix or implements a feature.
+
+**NOTE**: All commits must have a DCO sign-off in order for your change to be accepted. See more information on DCO signing [here](https://github.com/apps/dco).
 
 ## Code review process
 
