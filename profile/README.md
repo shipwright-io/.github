@@ -1,17 +1,19 @@
 <h2 align="center"><center>An extensible framework for
-building container images in Kubernetes</center></h2>
+building container images on Kubernetes</center></h2>
 
 ## Projects
 
-A few of the most popular libraries:
+Below are the main components of Shipwright:
 
-* [**build**](https://github.com/shipwright-io/build), A framework for building container images on Kubernetes
-* [**operator**](https://github.com/shipwright-io/operator), An operator to install and configure Shipwright Builds on Kubernetes clusters
-* [**triggers**](https://github.com/shipwright-io/triggers), Event-driven Shipwright Builds
-* [**cli**](https://github.com/shipwright-io/cli), A CLI for building container images on Kubernetes
-* [**community**](https://github.com/shipwright-io/community), Community documentation for Shipwright
-* [**website**](https://github.com/shipwright-io/website), Source code for the shipwright.io website
-* [**image**](https://github.com/shipwright-io/image), Shipwright Image APIs and Operators
+* [**build**](https://github.com/shipwright-io/build): provides the core Build APIs for Shipwright.
+* [**operator**](https://github.com/shipwright-io/operator): An operator to install and configure Shipwright on Kubernetes clusters.
+* [**cli**](https://github.com/shipwright-io/cli): A CLI for building container images with Shipwright.
+* [**triggers**](https://github.com/shipwright-io/triggers): Event-driven Shipwright Builds.
+
+Documentation for Shipwright is maintained here:
+
+* [**website**](https://github.com/shipwright-io/website): Content on the shipwright.io website.
+* [**community**](https://github.com/shipwright-io/community): Commmunity process and governance documentation.
 
 ## Getting Started 📚
 
