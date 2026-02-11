@@ -101,5 +101,5 @@ All meetings are also published on our [public calendar](https://calendar.google
 ## Contact Information
 
 - [Slack channel](https://kubernetes.slack.com/archives/C019ZRGUEJC)
-- End-user email list: [shipwright-users@lists.shipwright.io](https://lists.shipwright.io/admin/lists/shipwright-users.lists.shipwright.io/)
-- Developer email list: [shipwright-dev@lists.shipwright.io](https://lists.shipwright.io/admin/lists/shipwright-dev.lists.shipwright.io/)
+- End-user email list: [shipwright-users@lists.cncf.io](https://lists.cncf.io/g/shipwright-users)
+- Developer email list: [shipwright-dev@lists.cncf.io](https://lists.cncf.io/g/shipwright-dev)
