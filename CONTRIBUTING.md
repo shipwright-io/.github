@@ -96,7 +96,7 @@ For each upcoming meeting we generate a new issue where we layout the topics to 
 See our [previous meetings](https://github.com/shipwright-io/build/issues?q=is%3Aissue+label%3Acommunity+is%3Aclosed) outcomes.
 Please request an invite in our Slack [channel](https://kubernetes.slack.com/archives/C019ZRGUEJC) or join the [shipwright-dev mailing list](https://lists.cncf.io/g/shipwright-dev).
 
-All meetings are also published on our [public calendar](https://calendar.google.com/calendar/embed?src=shipwright-admin%40lists.cncf.io&ctz=America%2FNew_York).
+All meetings are also published on our [public calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/shipwright?view=week).
 
 ## Contact Information
 
