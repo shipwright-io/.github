@@ -9,5 +9,5 @@ To report a vulnerability via GitHub issues, click on the `Issues` tab at the to
 
 ### Report using email
 
-To report a vulnerability via email, send an email to shipwright-security@lists.shipwright.io.
+To report a vulnerability via email, send an email to shipwright-security@lists.cncf.io.
 Encryption using GPG is NOT required to make a disclosure.

@@ -24,7 +24,8 @@ Join in-depth discussions about Shipwright, propose new features, debate to your
 
 Do you love your email client and want to spend more time using it? Then this is the place for you! Ask questions and get announcements all from the safety of your inbox.
 
-[Join the Community](https://lists.shipwright.io)
+- User mailing list - [shipwright-users@lists.cncf.io](https://lists.cncf.io/g/shipwright-users/join)
+- Dev mailing list - [shipwright-dev@lists.cncf.io](https://lists.cncf.io/g/shipwright-dev/join)
 
 ## Help us help you!
 Spend time framing questions and add links and resources.
