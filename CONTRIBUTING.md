@@ -22,9 +22,9 @@ All contributors must abide by our [Code of Conduct](/CODE_OF_CONDUCT.md).
 
 The core code for Shipwright is located in the following repositories:
 
-* [build](https://github.com/shipwright-io/build) - the Build APIs and associated controller to run builds.
-* [cli](https://github.com/shipwright-io/cli) - the `shp` command line for Shipwright builds
-* [operator](https://github.com/shipwright-io/operator) - an operator to install Shipwright components on Kubernetes via OLM.
+- [build](https://github.com/shipwright-io/build) - the Build APIs and associated controller to run builds.
+- [cli](https://github.com/shipwright-io/cli) - the `shp` command line for Shipwright builds
+- [operator](https://github.com/shipwright-io/operator) - an operator to install Shipwright components on Kubernetes via OLM.
 
 Technical documentation is spread across the code repositories, and is consolidated in the [website](https://github.com/shipwright-io/website) repository.
 Content in `website` is published to [shipwright.io](https://shipwright.io)
@@ -64,6 +64,43 @@ We recommend you do the following to ensure the maintainers can collaborate on y
   ```sh
   git commit --amend -s
   ```
+
+- Before opening your pull request, squash your commits into a small number of logical,
+  reviewable units (ideally a single commit for small changes). This keeps the project history
+  clean and makes the change easier to review, bisect, and revert if needed. You can squash
+  commits with an interactive rebase against the branch point:
+
+  ```sh
+  git fetch upstream # fetch the changes from remote
+  git rebase -i upstream/main
+  ```
+
+  Avoid "fixup", "typo", or "address review comments" commits in the final history; fold those
+  changes into the relevant commit before requesting review, or as part of addressing review
+  feedback prior to merge.
+
+- Write commit messages following the [Conventional Commits](https://www.conventionalcommits.org/) specification.
+  Each commit message should be structured as:
+
+  ```
+  <type>[optional scope]: <description>
+
+  [optional body]
+
+  [optional footer(s)]
+  ```
+
+  Commonly used types include:
+  - `feat`: a new feature
+  - `fix`: a bug fix
+  - `docs`: documentation only changes
+  - `test`: adding or correcting tests
+  - `refactor`: a code change that neither fixes a bug nor adds a feature
+  - `chore`: changes to tooling, dependencies, or other maintenance tasks
+
+  For example: `fix(controller): requeue BuildRun on transient API errors`.
+  This convention makes the commit history easier to scan, and helps
+  reviewers understand the intent of a change at a glance.
 
 - Push your code changes to GitHub, then [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
   with a clear title for the community review. Most Shipwright repositories use templates to
